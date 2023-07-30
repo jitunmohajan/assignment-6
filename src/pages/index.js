@@ -8,7 +8,7 @@ const HomePage = () => {
     <div>
      {/* <NavBar></NavBar> */}
      <Nav></Nav>
-     {/* <Carousel></Carousel> */}
+     <Carousel></Carousel>
     </div>
   );
 };
