@@ -1,14 +1,14 @@
 import Carousel from '@/components/Carousel';
+import MultipleCard from '@/components/MultipleCard';
 import Nav from '@/components/Nav';
-import NavBar from '@/components/NavBar';
 import React from 'react';
 
 const HomePage = () => {
   return (
-    <div>
-     {/* <NavBar></NavBar> */}
+    <div data-theme="lofi">
      <Nav></Nav>
      <Carousel></Carousel>
+     <MultipleCard></MultipleCard>
     </div>
   );
 };
